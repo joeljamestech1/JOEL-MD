@@ -1,7 +1,3 @@
-
-
-
-
 // coded by 💗
 import dotenv from 'dotenv';
 dotenv.config();
@@ -100,8 +96,21 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("αм ʝσєℓ χ∂ ν тяєє вσт"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `αм ʝσєℓ χ∂ ν тняєє вσт` });
+                    console.log(chalk.green("DEMON-SLAYER-XMD IS CONNECTED SUCCESSFULLY  "));
+            Matrix.sendMessage(Matrix.user.id, { 
+                image: { url: "https://files.catbox.moe/76x3kn.jpg" }, 
+                caption: `*Hello there DEMON-SLAYER-XMD User! 👋🏻* 
+
+Simple, Straightforward, But Loaded With Features 🎊. Meet DEMON-SLAYER-XMD WhatsApp Bot.
+REPORT ANY PROBLEM TO THE FOLLOWING MAIN DEVS 
+ *MAIN DEVS*
+© BRUCE BERA
+© JOEL JAMES  
+© MARISEL 
+                   
+    
+> © MADE BY  CREW SLAYER`
+            });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -169,4 +178,4 @@ app.listen(PORT, () => {
 });
 
 
-//updated by lord joel 
+//updated by lord joel

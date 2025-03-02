@@ -90,9 +90,9 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╔═════════════⊷
 ║ *ʙᴏᴛ ɴᴀᴍᴇ: ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ xᴍᴅ*
-║ *ᴠᴇʀꜱɪᴏɴ: 2.1.0
+║ *ᴠᴇʀꜱɪᴏɴ: 2.1.0*
 ║ *ᴏᴡɴᴇʀ : ᴄʀᴇᴡ sʟᴀʏᴇʀ*      
-║ *ɴᴜᴍʙᴇʀ: 254740007567
+║ *ɴᴜᴍʙᴇʀ: 254740007567*
 ║ *ᴘʟᴀᴛғᴏʀᴍ: ${os.platform()}*
 ║ *ᴍᴏᴅᴇ: ${mode}*
 ║ *ᴘʀᴇғɪx: [${pref}]*
@@ -218,12 +218,12 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
     });
   }
       if (selectedId == "View All Menu") {
-        const str = `hey ${m.pushName} ${pushwish}
+        const str = `*ʜᴇʏ ${m.pushName} ${pushwish}*
 ╔═════════════⊷
 ║ *ʙᴏᴛ ɴᴀᴍᴇ: ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ xᴍᴅ*
-║ *ᴠᴇʀꜱɪᴏɴ: 2.1.0
+║ *ᴠᴇʀꜱɪᴏɴ: 2.1.0*
 ║ *ᴏᴡɴᴇʀ : ᴄʀᴇᴡ sʟᴀʏᴇʀ*      
-║ *ɴᴜᴍʙᴇʀ: 254740007567
+║ *ɴᴜᴍʙᴇʀ: 254740007567*
 ║ *ᴘʟᴀᴛғᴏʀᴍ: ${os.platform()}*
 ║ *ᴍᴏᴅᴇ: ${mode}*
 ║ *ᴘʀᴇғɪx: [${pref}]*
